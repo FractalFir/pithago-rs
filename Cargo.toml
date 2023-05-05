@@ -1,0 +1,10 @@
+[package]
+name = "pithago-rs"
+version = "0.0.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/FractalFir/pithago-rs"
+description = "A simple Rust 3D engine built using WASM and WebGPU. WIP" 
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
