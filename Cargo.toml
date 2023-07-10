@@ -4,7 +4,15 @@ version = "0.0.0"
 edition = "2021"
 license = "MIT"
 repository = "https://github.com/FractalFir/pithago-rs"
-description = "A simple Rust 3D engine built using WASM and WebGPU. WIP" 
+description = "A simple Rust 3D renderer made using WebGPU." 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = { version = "4.3.11", features = ["derive"] }
+wgpu = "0.16.1"
+winit = "0.28.6"
+[[test]]
+name = "tests"
+path = "src/test.rs"
+harness = false
+
